@@ -27,7 +27,11 @@ document.getElementById("reload").addEventListener("click",function(e){
 document.getElementById("envia").addEventListener("click",function(e){
   e.preventDefault();
   var copy = document.getElementById("onput-code");
+  if(random.value !== copy.value){
+    alert("Debe ingresar el captcha");
+  }
   if(random.value === copy.value){
-
+    copy.value = "";
+    captcha();
   }
 });

@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+}
+
+#captcha {
+  margin: 10px auto;
+}
+
+input {
+  display: block;
+}
