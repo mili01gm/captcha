@@ -1,11 +1,36 @@
 body {
   font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-#captcha {
+.captcha-container {
+  background-color: red;
   margin: 10px auto;
+  padding: 10px;
+  width: 400px;
+  height: 200px;
 }
 
-input {
+#random {
   display: block;
+  text-align: center;
+  background-color: white;
+  color: darkblue;
+  font-weight: 700;
+  font-size: 44px;
+  margin: 7px auto;
+  width: 300px;
+  height: 70px;
+  padding: 0;
+}
+#onput-code, #botones {
+  display: inline-block;
+}
+#onput
+button {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%
 }
